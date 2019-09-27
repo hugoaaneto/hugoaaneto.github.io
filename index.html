@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hugo de Andrade A. Neto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+
+  <style>
+
+  body {
+    height: 200px;
+    background:rgba(54, 139, 83, 0.918);
+    font-family: 'Overpass';
+  }
+  .container{
+    border-block-end-style:solid;
+    border-color: black;
+    border-block-start-style: solid;
+    background-color: lightgray;
+  }
+  .aba{
+    color:black;
+  }
+  .lista{
+    line-height: 200%;
+  }
+  a{
+    background-blend-mode: darken;
+    font-style: italic;
+    
+  }
+  a:hover{
+    color:black;
+    background:rgba(61, 163, 95, 0.404);
+  }
+
+  p{
+    color:black;
+    line-height: 150%;
+  }
+  h1,h2,h3,h4,h5{
+    color:black;
+  }
+
+
+  </style>
+</head>
+<body>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <br>
+        <a class="perfil" href="#">
+            <img  class="img-thumbnail" src="imagens/perfil.jpg">
+          </a>
+          <hr>
+      <p>Hugo, estudante de graduação em Engenharia da Computação na UPE.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/hugoaaneto/">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/hugoaaneto">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/hugo.andrade.1232">Facebook</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active aba" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Formação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aba" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Eventos e Artigos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aba" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Habilidades</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <br>
+          <h5>GRADUAÇÃO EM ENGENHARIA DA COMPUTAÇÃO - UPE</h4>
+          <h6>2016.2 - Atual</h5>
+          <br>
+          <h5>INICIAÇÃO CIENTÍFICA EM INTELIGÊNCIA ARTIFICIAL</h4>
+          <h6>2018 - Atual
+            </h5>
+          <p>Experiência com computação paralela e Metaheurísticas.</p>
+     
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <br>
+          <p>1. Workshop on Requirements Engineering - WER 2019</p>
+          <p>2. Talk a Bit - 2018</p>
+          <p>3. Artigo publicado, link:</p>
+          <a href="https://www.researchgate.net/publication/328460103_Population_Size_Control_for_Efficiency_and_Efficacy_Optimization_in_Population_Based_Metaheuristics">Population Size Control for Efficiency and Efficacy Optimization in Population Based Metaheuristics
+          </a>
+          <br>
+          <br><p>4. Artigo publicado, link:</p>
+          <a href = "https://www.researchgate.net/publication/335068475_Parallelization_Strategies_for_GPU-Based_Ant_Colony_Optimization_Solving_the_Traveling_Salesman_Problem"> Parallelization Strategies for GPU-Based Ant Colony Optimization Solving the Traveling Salesman Problem
+          </a>
+          <br><br>
+          <p>5. Desenvolvimento de sites na plataforma WordPress utilizando HTML E CSS.</p>
+          <p>6. Desenvolvimento de aplicativo Android, utilizando Android Studio (Java) e banco de dados FireBase para pesquisa em odontologia na UFPE</p>
+          <br>
+  
+
+        </div>
+        <div class="tab-pane fade lista" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <p>Programação e habilidades:</p>
+          <ul>
+            <li>Python</li>
+            <li>C e C++</li>
+            <li>CUDA</li>
+            <li>OpenMP</li>
+            <li>Java</li>
+            <li>HTML e CSS</li>
+            <li>Android Studio</li>
+            <li>SQL e MySQL</li>
+            <li>JavaScript</li>
+          </ul>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
